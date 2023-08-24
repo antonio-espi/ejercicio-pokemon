@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        .mitabla {
+            width: 100%;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        th, td {
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            border-spacing: 0;
+        }
+    </style>
+</head>
+<body>
+    <button id="apiButton">mostrar datos</button>
+    <pre id="apiData"></pre>
+
+    <table class="mitabla">
+        <tr>
+          <th>ID</th>
+          <th>URL</th>
+          <th>PREVIOUS</th>
+          <th>RESULT</th>
+        </tr>
+        <tr>
+          <td id="count"></td>
+          <td id="next"></td>
+          <td id="previous"></td>
+          <td id="results"></td>
+        </tr>
+      </table>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
