@@ -3,42 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API</title>
-    <style>
-        .mitabla {
-            width: 100%;
-            border-width: 1px;
-            border-style: solid;
-            border-color: black;
-        }
-
-        th, td {
-            border-width: 1px;
-            border-style: solid;
-            border-color: black;
-            border-spacing: 0;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <button id="apiButton">mostrar datos</button>
-    <pre id="apiData"></pre>
+    <div class="lists__pokemons" id="lists__pokemons"></div>
 
-    <table class="mitabla">
-        <tr>
-          <th>ID</th>
-          <th>URL</th>
-          <th>PREVIOUS</th>
-          <th>RESULT</th>
-        </tr>
-        <tr>
-          <td id="count"></td>
-          <td id="next"></td>
-          <td id="previous"></td>
-          <td id="results"></td>
-        </tr>
-      </table>
+    <div class="buttons" id="buttons"></div>
 
-    <script src="main.js" type="module"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
